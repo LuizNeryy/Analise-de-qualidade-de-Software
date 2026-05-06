@@ -31,7 +31,7 @@ qualidade do sistema.
 | **Objetivo do Software** | Operar como uma loja virtual funcional, lidando com tráfego de usuários, exibição de produtos, aplicação dinâmica de descontos e exibição de campanhas publicitárias em tempo real. |
 | **Principais Funcionalidades** | • Catálogo de produtos e categorias (Frontend em Ruby on Rails)<br>• Motor de cálculo de descontos (Microsserviço em Python/Flask)<br>• Exibição de banners de anúncios (Microsserviço em Python/Flask)<br>• Integração com bancos de dados relacionais (PostgreSQL e SQLite) |
 | **Público-Alvo** | Consumidores finais (shoppers) que buscam realizar compras online e times de engenharia de software/SRE focados em manter a disponibilidade. |
-| **Stack Tecnológico** | Ruby on Rails (Spree), Python (Flask), React, PostgreSQL, SQLite, Docker, Datadog APM. |
+| **Stack Tecnológico** | Ruby on Rails (Spree), Python (Flask), PostgreSQL, SQLite, Docker, Datadog APM. |
 
 ### 1.3 Especificar o modelo de qualidade
 

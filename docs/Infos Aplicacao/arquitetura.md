@@ -1,10 +1,10 @@
 # Arquitetura do Sistema
 
-O ecommerce-workshop adota uma arquitetura híbrida. O storefront principal é um aplicativo Rails/Spree que expõe o catálogo, a navegação e o checkout. Ao lado dele, há microserviços em Flask para descontos e anúncios. Um frontend auxiliar em React/Vite consome esses serviços para demonstrar instrumentação de RUM e interação com o usuário.
+O ecommerce-workshop adota uma arquitetura híbrida. O storefront principal é um aplicativo Rails/Spree que expõe o catálogo, a navegação e o checkout. Ao lado dele, há microserviços em Flask para descontos e anúncios, conectados a bancos PostgreSQL e SQLite.
 
 ## Camadas principais
 
-- Apresentação: storefront Rails e frontend React.
+- Apresentação: storefront Rails.
 - Serviços: descontos e anúncios em Flask.
 - Dados: PostgreSQL para os microserviços e SQLite no estado inicial do storefront.
 - Observabilidade: Datadog Agent, APM, RUM, logs e synthetics.

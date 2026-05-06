@@ -3,7 +3,6 @@
 ## Frontend
 
 - Ruby on Rails com Spree no storefront principal.
-- React 17, TypeScript, Vite e Tailwind CSS no frontend auxiliar de descontos.
 
 ## Backend
 

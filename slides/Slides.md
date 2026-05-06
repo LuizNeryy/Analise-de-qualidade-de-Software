@@ -139,7 +139,7 @@ Data: [data da apresentação]
 
 **O que é o ecommerce-workshop?**
 
-O ecommerce-workshop é um repositório de laboratório criado para demonstrar observabilidade em um cenário de e-commerce. O sistema combina um storefront em Spree/Rails com microserviços em Flask para descontos e anúncios, além de um frontend auxiliar em React/Vite.
+O ecommerce-workshop é um repositório de laboratório criado para demonstrar observabilidade em um cenário de e-commerce. O sistema combina um storefront em Ruby on Rails (Spree) com microsserviços em Python (Flask) para descontos e anúncios, conectados a bancos PostgreSQL e SQLite.
 
 **Por que esse software foi escolhido?**
 
@@ -159,16 +159,12 @@ O sistema está funcional, estável e rápido o suficiente para ser considerado 
 
 **Características avaliadas**
 
-- Adequação Funcional - 35%
-- Confiabilidade - 20%
-- Desempenho - 20%
-- Usabilidade - 15%
-- Compatibilidade - 5%
-- Segurança - 5%
+- Confiabilidade (Tolerância a Falhas) - 60%
+- Eficiência de Desempenho (Tempo e Recursos) - 40%
 
 **Justificativa**
 
-As três primeiras características receberam maior peso porque um e-commerce precisa funcionar corretamente, permanecer disponível e responder rápido. Usabilidade, compatibilidade e segurança completam a análise porque afetam a experiência do usuário e a operação do sistema.
+Um e-commerce não pode cair se um serviço de anúncio ou desconto falhar, por isso a confiabilidade recebe maior peso. A lentidão afeta diretamente as vendas e o custo de infraestrutura, então a eficiência de desempenho também recebe peso alto. Como o foco do trabalho foi a comparação entre cenário quebrado e corrigido, essas duas dimensões resumem melhor o problema avaliado.
 
 ### Slide 5 - Métricas e critérios
 
